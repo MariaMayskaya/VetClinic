@@ -39,6 +39,11 @@
 *   **Уровень доступа к данным (Data Access Layer):** Реализован в том же классе DatabaseHelper. Выполняет SQL-запросы к SQLite и преобразует результаты в объекты моделей.
 *   **Модели (Models):** Классы User, Pet, Appointment, MedicalRecord, Medicine и AvailableTimeSlot. Отражают структуру бизнес-данных.
 
+
+##  🗄️ Структура базы данных
+ER-диаграмма 
+![ER-диаграмма](https://github.com/MariaMayskaya/VetClinic/blob/main/ER.png?raw=true)
+
 ### Требования
 *   Операционная система: Windows 7 и выше.
 *   Установленный .NET Framework 4.8 или выше (обычно уже есть в Windows 10/11).
